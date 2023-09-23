@@ -9,14 +9,14 @@
 //     cityName:"Prizren",
     
 
-// }
-// console.log(user.name);
+// // }
+// // console.log(user.name);
 
-// // let fullName ="Elvaris Vermica"
-// // console.log(`${name}` `${Lastname}`);
-// let fullName = `${user.name} ${user.Lastname} is ${user.age} years old,from ${user.country} /${user.cityName}`;
-// console.log(fullName);
-// let=['']
+// // // let fullName ="Elvaris Vermica"
+// // // console.log(`${name}` `${Lastname}`);
+// // let fullName = `${user.name} ${user.Lastname} is ${user.age} years old,from ${user.country} /${user.cityName}`;
+// // console.log(fullName);
+// // let=['']
 let users = [
     {
       _id: '650c726ef7e50871bcfba0c3',
@@ -77,5 +77,6 @@ let users = [
   
   // Iterate over the users array and log the desired string for each user
   for (let user of users); {
-    console.log(`My name is , and I'm ${age} years old.`);
+    console.log(`My name is ${users.name}, and I'm ${users.age} years old.`);
   }
+  
