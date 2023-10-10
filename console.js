@@ -9,14 +9,14 @@
 //     cityName:"Prizren",
     
 
-// }
-// console.log(user.name);
+// // }
+// // console.log(user.name);
 
-// // let fullName ="Elvaris Vermica"
-// // console.log(`${name}` `${Lastname}`);
-// let fullName = `${user.name} ${user.Lastname} is ${user.age} years old,from ${user.country} /${user.cityName}`;
-// console.log(fullName);
-// let=['']
+// // // let fullName ="Elvaris Vermica"
+// // // console.log(`${name}` `${Lastname}`);
+// // let fullName = `${user.name} ${user.Lastname} is ${user.age} years old,from ${user.country} /${user.cityName}`;
+// // console.log(fullName);
+// // let=['']
 let users = [
     {
       _id: '650c726ef7e50871bcfba0c3',
@@ -79,3 +79,4 @@ let users = [
   for (let user of users); {
     console.log(`My name is ${user.name} and I'm ${user.age} years old.`);
   }
+  
