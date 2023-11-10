@@ -20,7 +20,7 @@ const routes: Routes = [
     component: RegisterComponent,
   },
   {
-    path: 'detyrat',
+    path: 'detyrat',    //Komponent i ri
     component: DetyratComponent,
   },
   {
