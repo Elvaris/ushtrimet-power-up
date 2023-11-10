@@ -1,0 +1,25 @@
+.d-flex{
+    display: flex;
+    p:nth-child(1){
+        margin-left: 8%;
+    }
+} 
+
+.blue {
+    background-color: rgb(14, 174, 0);
+    color: white;  
+  }
+  
+  .red {
+    background-color: red;
+    color: white;  
+  }
+  .d-flex {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;  
+    padding: 5%;  
+    border: 5px solid #000000;  
+    margin-bottom: 9px;  
+  }
+  

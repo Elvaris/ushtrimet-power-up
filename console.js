@@ -78,5 +78,6 @@ let users = [
   // Iterate over the users array and log the desired string for each user
   for (let user of users); {
     console.log(`My name is ${user.name} and I'm ${user.age} years old.`);
+    
   }
   

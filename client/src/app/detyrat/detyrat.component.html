@@ -1,0 +1,9 @@
+<div *ngFor="let donate of arr">
+    <div class="d-flex"[ngClass]="donate.price>=0 ? 'blue' : 'red'">
+        <p>{{ donate.name }} </p>
+        <p> {{ donate.price | currency}}</p>  
+        <p (click)="Donation(donate.id,true)">+</p>
+        <p (click)="Donation(donate.id,false)">-</p>
+      </div>
+    
+    
